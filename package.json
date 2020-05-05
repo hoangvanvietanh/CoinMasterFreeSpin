@@ -1,0 +1,25 @@
+{
+  "name": "coinmasterfreespin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangvanvietanh/CoinMasterFreeSpin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangvanvietanh/CoinMasterFreeSpin/issues"
+  },
+  "homepage": "https://github.com/hoangvanvietanh/CoinMasterFreeSpin#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
